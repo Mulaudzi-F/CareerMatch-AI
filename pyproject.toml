@@ -1,0 +1,21 @@
+[project]
+name = "careermatch-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Fhatuwani", email = "mulaudzifhatuwanib20@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "jupyter>=1.1.1",
+    "langchain>=1.4.9",
+    "langchain-openai>=1.7.4",
+]
+
+[project.scripts]
+careermatch-ai = "careermatch_ai:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
